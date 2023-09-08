@@ -43,5 +43,3 @@ $conn = $database->getConnection();
 
 $query = "SELECT * FROM pengguna";
 $result = $conn->query($query);
-
-?>
