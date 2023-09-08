@@ -41,7 +41,7 @@ $database = "nilai";
 $database = new Database($localhost, $username, $password, $database);
 $conn = $database->getConnection();
 
-$query = "SELECT * FROM users";
+$query = "SELECT * FROM pengguna";
 $result = $conn->query($query);
 
 ?>
